@@ -22,7 +22,7 @@ public class ReviewRepository {
             return null;
 
     }
-
+//    As a User, I want to be able to see an abbreviated summary of all reviews of a course.
     public String abbreviateText(String text, int numberChar){
 
         int total = text.length();
